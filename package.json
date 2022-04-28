@@ -1,0 +1,19 @@
+{
+   "name": "malina-component",
+   "scripts": {
+      "build": "node malina-esbuild",
+      "prepublishOnly": "npm run build"
+   },
+   "devDependencies": {
+      "esbuild": "^0.14.38",
+      "fs": "^0.0.1-security",
+      "malinajs": "^0.6.58"
+   },
+   "keywords": [
+      "malina"
+   ],
+   "files": [
+      "src",
+      "dist"
+   ]
+}
